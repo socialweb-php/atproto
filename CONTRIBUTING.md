@@ -10,7 +10,7 @@ code.
 
 You can find help and discussion in the following places:
 
-* GitHub Issues: <https://github.com/socialweb/at-protocol/issues>
+* GitHub Issues: <https://github.com/socialweb/atproto/issues>
 
 ## Reporting Bugs
 
@@ -72,11 +72,11 @@ When you do begin working on your feature, here are some guidelines to consider:
   We will use this description to update the CHANGELOG. If there is no
   description, or it does not adequately describe your feature, we may ask you
   to update the description.
-* socialweb/at-protocol follows a superset of **[PSR-12 coding standard][psr-12]**.
+* socialweb/atproto follows a superset of **[PSR-12 coding standard][psr-12]**.
   Please ensure your code does, too. _Hint: run `composer dev:lint` to check._
 * Please **write tests** for any new features you add.
 * Please **ensure that tests pass** before submitting your pull request.
-  socialweb/at-protocol automatically runs tests for pull requests. However,
+  socialweb/atproto automatically runs tests for pull requests. However,
   running the tests locally will help save time. _Hint: run `composer test`._
 * **Use topic/feature branches.** Please do not ask to pull from your main branch.
   * For more information, see "[Understanding the GitHub flow][gh-flow]."
@@ -169,9 +169,9 @@ composer test
 CaptainHook will automatically run all tests before pushing to the remote
 repository.
 
-[github]: https://github.com/socialweb/at-protocol
-[issues]: https://github.com/socialweb/at-protocol/issues
-[pull requests]: https://github.com/socialweb/at-protocol/pulls
+[github]: https://github.com/socialweb/atproto
+[issues]: https://github.com/socialweb/atproto/issues
+[pull requests]: https://github.com/socialweb/atproto/pulls
 [psr-12]: https://www.php-fig.org/psr/psr-12/
 [gh-flow]: https://guides.github.com/introduction/flow/
 [conventional commits]: https://www.conventionalcommits.org/

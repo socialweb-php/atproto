@@ -29,12 +29,12 @@
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
-            "SocialWeb\\Atp\\": "src/"
+            "SocialWeb\\Atproto\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "SocialWeb\\Test\\Atp\\": "tests/"
+            "SocialWeb\\Test\\Atproto\\": "tests/"
         }
     },
     "config": {

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace SocialWeb\Test\Atp;
+namespace SocialWeb\Test\Atproto;
 
 use Ramsey\Dev\Tools\TestCase as BaseTestCase;
 

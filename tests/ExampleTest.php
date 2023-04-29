@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace SocialWeb\Test\Atp;
+namespace SocialWeb\Test\Atproto;
 
-use SocialWeb\Atp\Example;
+use SocialWeb\Atproto\Example;
 
 class ExampleTest extends TestCase
 {

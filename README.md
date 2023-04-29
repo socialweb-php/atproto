@@ -1,4 +1,4 @@
-<h1 align="center">socialweb/at-protocol</h1>
+<h1 align="center">socialweb/atproto</h1>
 
 <p align="center">
     <strong>A PHP library for integrating with and communicating over the AT Protocol</strong>
@@ -10,13 +10,13 @@ TODO: Make sure the following URLs are correct and working for your project.
       overview of your package.
 
 <p align="center">
-    <a href="https://github.com/socialweb-php/at-protocol"><img src="https://img.shields.io/badge/source-socialweb/at--protocol-blue.svg?style=flat-square" alt="Source Code"></a>
-    <a href="https://packagist.org/packages/socialweb/at-protocol"><img src="https://img.shields.io/packagist/v/socialweb/at-protocol.svg?style=flat-square&label=release" alt="Download Package"></a>
-    <a href="https://php.net"><img src="https://img.shields.io/packagist/php-v/socialweb/at-protocol.svg?style=flat-square&colorB=%238892BF" alt="PHP Programming Language"></a>
-    <a href="https://github.com/socialweb-php/at-protocol/blob/main/LICENSE"><img src="https://img.shields.io/packagist/l/socialweb/at-protocol.svg?style=flat-square&colorB=darkcyan" alt="Read License"></a>
-    <a href="https://github.com/socialweb-php/at-protocol/actions/workflows/continuous-integration.yml"><img src="https://img.shields.io/github/actions/workflow/status/socialweb-php/at-protocol/continuous-integration.yml?branch=main&style=flat-square&logo=github" alt="Build Status"></a>
-    <a href="https://codecov.io/gh/socialweb-php/at-protocol"><img src="https://img.shields.io/codecov/c/gh/socialweb-php/at-protocol?label=codecov&logo=codecov&style=flat-square" alt="Codecov Code Coverage"></a>
-    <a href="https://shepherd.dev/github/socialweb-php/at-protocol"><img src="https://img.shields.io/endpoint?style=flat-square&url=https%3A%2F%2Fshepherd.dev%2Fgithub%2Fsocialweb-php%2Fat-protocol%2Fcoverage" alt="Psalm Type Coverage"></a>
+    <a href="https://github.com/socialweb-php/atproto"><img src="https://img.shields.io/badge/source-socialweb/atproto-blue.svg?style=flat-square" alt="Source Code"></a>
+    <a href="https://packagist.org/packages/socialweb/atproto"><img src="https://img.shields.io/packagist/v/socialweb/atproto.svg?style=flat-square&label=release" alt="Download Package"></a>
+    <a href="https://php.net"><img src="https://img.shields.io/packagist/php-v/socialweb/atproto.svg?style=flat-square&colorB=%238892BF" alt="PHP Programming Language"></a>
+    <a href="https://github.com/socialweb-php/atproto/blob/main/LICENSE"><img src="https://img.shields.io/packagist/l/socialweb/atproto.svg?style=flat-square&colorB=darkcyan" alt="Read License"></a>
+    <a href="https://github.com/socialweb-php/atproto/actions/workflows/continuous-integration.yml"><img src="https://img.shields.io/github/actions/workflow/status/socialweb-php/atproto/continuous-integration.yml?branch=main&style=flat-square&logo=github" alt="Build Status"></a>
+    <a href="https://codecov.io/gh/socialweb-php/atproto"><img src="https://img.shields.io/codecov/c/gh/socialweb-php/atproto?label=codecov&logo=codecov&style=flat-square" alt="Codecov Code Coverage"></a>
+    <a href="https://shepherd.dev/github/socialweb-php/atproto"><img src="https://img.shields.io/endpoint?style=flat-square&url=https%3A%2F%2Fshepherd.dev%2Fgithub%2Fsocialweb-php%2Fatproto%2Fcoverage" alt="Psalm Type Coverage"></a>
 </p>
 -->
 
@@ -40,7 +40,7 @@ uphold this code.
 Install this package as a dependency using [Composer](https://getcomposer.org).
 
 ``` bash
-composer require socialweb/at-protocol
+composer require socialweb/atproto
 ```
 
 <!--
@@ -78,7 +78,7 @@ security issue in software that is maintained in this repository, please read
 
 ## Copyright and License
 
-socialweb/at-protocol is copyright © [Ben Ramsey](https://benramsey.com)
+socialweb/atproto is copyright © [Ben Ramsey](https://benramsey.com)
 and licensed for use under the terms of the
 GNU Lesser General Public License (LGPL-3.0-or-later) as published by the Free
 Software Foundation. Please see [COPYING.LESSER](COPYING.LESSER),

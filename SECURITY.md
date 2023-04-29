@@ -31,7 +31,7 @@ this repository, we encourage you to notify us.
 
 | Version | In scope | Source code |
 | ------- | :------: | ----------- |
-| latest  | ✅        | https://github.com/socialweb/at-protocol |
+| latest  | ✅        | https://github.com/socialweb/atproto |
 
 ## How to Submit a Report
 
