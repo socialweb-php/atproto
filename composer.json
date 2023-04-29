@@ -1,0 +1,61 @@
+{
+    "name": "socialweb/at-protocol",
+    "description": "A PHP library for integrating with and communicating over the AT Protocol",
+    "license": "LGPL-3.0-or-later",
+    "type": "library",
+    "keywords": [
+        "atp",
+        "atproto",
+        "at protocol",
+        "bluesky"
+    ],
+    "authors": [
+        {
+            "name": "Ben Ramsey",
+            "email": "ben@benramsey.com",
+            "homepage": "https://benramsey.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1"
+    },
+    "require-dev": {
+        "ramsey/devtools": "^2.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "SocialWeb\\Atp\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SocialWeb\\Test\\Atp\\": "tests/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true,
+            "ramsey/composer-repl": true,
+            "phpstan/extension-installer": true,
+            "ergebnis/composer-normalize": true,
+            "captainhook/plugin-composer": true,
+            "ramsey/devtools": true
+        },
+        "sort-packages": true
+    },
+    "extra": {
+        "captainhook": {
+            "force-install": true
+        },
+        "ramsey/conventional-commits": {
+            "configFile": "conventional-commits.json"
+        },
+        "ramsey/devtools": {
+            "command-prefix": "dev",
+            "memory-limit": "-1"
+        }
+    }
+}
