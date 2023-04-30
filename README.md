@@ -36,10 +36,6 @@ composer require socialweb/atproto
 
 ## Usage
 
-Provide a brief description or short example of how to use this library.
-If you need to provide more detailed examples, use the `docs/` directory
-and provide a link here to the documentation.
-
 ```php
 // This is very rough and in no way represents the final recommended
 // usage of this library.
