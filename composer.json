@@ -19,16 +19,22 @@
     "require": {
         "php": "^8.2",
         "psr/http-client": "^1.0",
+        "psr/http-client-implementation": "*",
         "psr/http-factory": "^1.0",
-        "psr/http-message": "^1.1"
+        "psr/http-factory-implementation": "*",
+        "psr/http-message": "^1.1",
+        "psr/http-message-implementation": "*"
     },
     "require-dev": {
+        "guzzlehttp/guzzle": "^7.5",
         "ramsey/devtools": "^2.0"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
+            "App\\": "lexicons/App/",
+            "Com\\": "lexicons/Com/",
             "SocialWeb\\Atproto\\": "src/"
         }
     },
@@ -39,7 +45,7 @@
     },
     "config": {
         "allow-plugins": {
-            "php-http/discovery": true,
+            "php-http/discovery": false,
             "dealerdirect/phpcodesniffer-composer-installer": true,
             "ramsey/composer-repl": true,
             "phpstan/extension-installer": true,
