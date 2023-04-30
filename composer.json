@@ -1,5 +1,5 @@
 {
-    "name": "socialweb/at-protocol",
+    "name": "socialweb/atproto",
     "description": "A PHP library for integrating with and communicating over the AT Protocol",
     "license": "LGPL-3.0-or-later",
     "type": "library",
