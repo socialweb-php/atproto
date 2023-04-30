@@ -29,8 +29,6 @@ use Com\Atproto\Identity as IdentityLexicon;
 use Psr\Http\Message\UriInterface;
 use SocialWeb\Atproto\Api\Options;
 use SocialWeb\Atproto\Api\XrpcResponseError;
-use SocialWeb\Atproto\Lexicon\Lexicon;
-use SocialWeb\Atproto\Lexicon\Type;
 
 use function http_build_query;
 use function json_decode;
@@ -47,12 +45,6 @@ class Identity implements IdentityLexicon
     ) {
     }
 
-    #[Lexicon(
-        lexicon: 1,
-        id: 'com.atproto.identity.resolveHandle',
-        type: Type::Query,
-        description: 'Provides the DID of a repo.',
-    )]
     public function resolveHandle(?string $handle): object
     {
         $url = $this->service->withPath('/xrpc/com.atproto.identity.resolveHandle');

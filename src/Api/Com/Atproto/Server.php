@@ -29,8 +29,6 @@ use Com\Atproto\Server as ServerLexicon;
 use Psr\Http\Message\UriInterface;
 use SocialWeb\Atproto\Api\Options;
 use SocialWeb\Atproto\Api\XrpcResponseError;
-use SocialWeb\Atproto\Lexicon\Lexicon;
-use SocialWeb\Atproto\Lexicon\Type;
 
 use function json_decode;
 use function json_encode;
@@ -47,12 +45,6 @@ class Server implements ServerLexicon
     ) {
     }
 
-    #[Lexicon(
-        lexicon: 1,
-        id: 'com.atproto.server.createSession',
-        type: Type::Procedure,
-        description: 'Create an authentication session.',
-    )]
     public function createSession(string $identifier, string $password): object
     {
         $url = $this->service->withPath('/xrpc/com.atproto.server.createSession');
@@ -85,12 +77,6 @@ class Server implements ServerLexicon
         return $body;
     }
 
-    #[Lexicon(
-        lexicon: 1,
-        id: 'com.atproto.server.getSession',
-        type: Type::Query,
-        description: 'Get information about the current session.',
-    )]
     public function getSession(): object
     {
         $url = $this->service->withPath('/xrpc/com.atproto.server.getSession');

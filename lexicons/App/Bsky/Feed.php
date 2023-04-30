@@ -25,9 +25,6 @@ declare(strict_types=1);
 
 namespace App\Bsky;
 
-use SocialWeb\Atproto\Lexicon\Lexicon;
-use SocialWeb\Atproto\Lexicon\Type;
-
 /**
  * This interface should be auto-generated from the sources in
  * `resources/bluesky-social/atproto/lexicons`.
@@ -45,11 +42,5 @@ interface Feed
      *
      * @phpstan-param int<1, 100> $limit
      */
-    #[Lexicon(
-        lexicon: 1,
-        id: 'app.bsky.feed.getTimeline',
-        type: Type::Query,
-        description: 'A view of the user\'s home timeline.',
-    )]
     public function getTimeline(int $limit = 50, ?string $cursor = null, ?string $algorithm = null): object;
 }

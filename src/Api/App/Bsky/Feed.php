@@ -8,8 +8,6 @@ use App\Bsky\Feed as FeedLexicon;
 use Psr\Http\Message\UriInterface;
 use SocialWeb\Atproto\Api\Options;
 use SocialWeb\Atproto\Api\XrpcResponseError;
-use SocialWeb\Atproto\Lexicon\Lexicon;
-use SocialWeb\Atproto\Lexicon\Type;
 
 use function http_build_query;
 use function json_decode;
@@ -25,12 +23,6 @@ class Feed implements FeedLexicon
     ) {
     }
 
-    #[Lexicon(
-        lexicon: 1,
-        id: 'app.bsky.feed.getTimeline',
-        type: Type::Query,
-        description: 'A view of the user\'s home timeline.',
-    )]
     public function getTimeline(int $limit = 50, ?string $cursor = null, ?string $algorithm = null): object
     {
         $url = $this->service->withPath('/xrpc/app.bsky.feed.getTimeline');

@@ -25,9 +25,6 @@ declare(strict_types=1);
 
 namespace Com\Atproto;
 
-use SocialWeb\Atproto\Lexicon\Lexicon;
-use SocialWeb\Atproto\Lexicon\Type;
-
 /**
  * This interface should be auto-generated from the sources in
  * `resources/bluesky-social/atproto/lexicons`.
@@ -41,11 +38,5 @@ interface Identity
      *
      * @return object{did: string}
      */
-    #[Lexicon(
-        lexicon: 1,
-        id: 'com.atproto.identity.resolveHandle',
-        type: Type::Query,
-        description: 'Provides the DID of a repo.',
-    )]
     public function resolveHandle(?string $handle): object;
 }

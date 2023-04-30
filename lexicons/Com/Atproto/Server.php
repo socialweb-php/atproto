@@ -25,9 +25,6 @@ declare(strict_types=1);
 
 namespace Com\Atproto;
 
-use SocialWeb\Atproto\Lexicon\Lexicon;
-use SocialWeb\Atproto\Lexicon\Type;
-
 /**
  * This interface should be auto-generated from the sources in
  * `resources/bluesky-social/atproto/lexicons`.
@@ -41,12 +38,6 @@ interface Server
      *
      * @return object{accessJwt: string, refreshJwt: string, handle: string, did: string, email?: string}
      */
-    #[Lexicon(
-        lexicon: 1,
-        id: 'com.atproto.server.createSession',
-        type: Type::Procedure,
-        description: 'Create an authentication session.',
-    )]
     public function createSession(string $identifier, string $password): object;
 
     /**
@@ -54,11 +45,5 @@ interface Server
      *
      * @return object{handle: string, did: string, email?: string}
      */
-    #[Lexicon(
-        lexicon: 1,
-        id: 'com.atproto.server.getSession',
-        type: Type::Query,
-        description: 'Get information about the current session.',
-    )]
     public function getSession(): object;
 }
