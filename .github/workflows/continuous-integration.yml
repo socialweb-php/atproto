@@ -73,6 +73,8 @@ jobs:
     name: "Security analysis"
     needs: ["coding-standards", "static-analysis"]
     runs-on: "ubuntu-latest"
+    permissions:
+      security-events: write
 
     steps:
       - name: "Checkout repository"
